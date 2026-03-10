@@ -1,0 +1,78 @@
+MIT License
+
+Copyright (c) 2026 halim-cv1
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+────────────────────────────────────────────────────────────────────────────
+THIRD-PARTY DATASET NOTICES
+────────────────────────────────────────────────────────────────────────────
+
+This repository contains ONLY source code (CUDA/C++/Python scripts).
+No dataset files are included or distributed.
+
+The dataset preparation scripts reference the following third-party datasets,
+each governed by its own separate license:
+
+1. Oxford 17-Category Flower Dataset
+   Authors : Nilsback & Zisserman (CVPR 2006)
+   License : Research / non-commercial use only — see Oxford VGG terms
+   URL     : https://www.robots.ox.ac.uk/~vgg/data/flowers/17/
+
+2. PASCAL Visual Object Classes (VOC) 2007
+   Authors : Everingham et al. (IJCV 2010)
+   License : Research / non-commercial use — see PASCAL VOC terms
+   URL     : http://host.robots.ox.ac.uk/pascal/VOC/
+
+3. Oxford-IIIT Pet Dataset
+   Authors : Parkhi et al. (CVPR 2012)
+   License : Creative Commons Attribution-ShareAlike 4.0 (CC-BY-SA 4.0)
+   URL     : https://www.robots.ox.ac.uk/~vgg/data/pets/
+
+Users must download these datasets independently and comply with each
+dataset's own terms before use.
+
+────────────────────────────────────────────────────────────────────────────
+THIRD-PARTY MODEL / ALGORITHM NOTICES
+────────────────────────────────────────────────────────────────────────────
+
+This project implements algorithms described in academic papers. The
+following papers are cited for attribution; their methods are reproduced
+in original CUDA code under the MIT License above:
+
+  • Batch Normalization    — Ioffe & Szegedy, ICML 2015
+  • He (Kaiming) Init      — He et al., ICCV 2015
+  • Momentum SGD           — Sutskever et al., ICML 2013
+  • cuDNN Primitives       — Chetlur et al., 2014
+  • Dropout                — Srivastava et al., JMLR 2014
+  • AlexNet architecture   — Krizhevsky et al., NeurIPS 2012
+  • VGGNet architecture    — Simonyan & Zisserman, ICLR 2015
+  • ResNet                 — He et al., CVPR 2016
+  • Feature Pyramid Networks — Lin et al., CVPR 2017
+  • RetinaNet / Focal Loss — Lin et al., ICCV 2017
+  • U-Net                  — Ronneberger et al., MICCAI 2015
+  • Attention U-Net        — Oktay et al., MIDL 2018
+  • DeepLab v3+            — Chen et al., ECCV 2018
+  • Dilated Convolutions   — Yu & Koltun, ICLR 2016
+  • Dice Loss / V-Net      — Milletari et al., 3DV 2016
+  • Cutout                 — DeVries & Taylor, 2017
+  • Elastic Deformation    — Simard et al., ICDAR 2003
+
+All implementations are original CUDA/C++ code written from scratch.
+No pre-trained weights, model binaries, or third-party code are included.

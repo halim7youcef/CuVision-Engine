@@ -1,0 +1,16 @@
+# Intermediate files generated during compilation
+*.obj
+*.exe
+*.exp
+*.lib
+*.pdb
+
+# CUDA/cuDNN artifacts
+*.bin
+*.tgz
+flower_data/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
